@@ -149,15 +149,14 @@ header{
     align-items:center;
 }
 
-.hero-image img{
-    width:340px;
-    height:440px;
+.about-image img{
+    width:330px;
+    height:430px;
     object-fit:cover;
     object-position:center top;
     border-radius:20px;
     border:5px solid #38bdf8;
     box-shadow:0 20px 40px rgba(0,0,0,.25);
-    transition:.4s;
 }
 
 .hero-image img:hover{
