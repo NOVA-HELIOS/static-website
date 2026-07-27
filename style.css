@@ -143,24 +143,33 @@ header{
     background:#059669;
 }
 
+/* ===========================
+   HERO IMAGE
+=========================== */
+
 .hero-image{
+    flex:1;
     display:flex;
     justify-content:center;
     align-items:center;
 }
 
-.about-image img{
-    width:330px;
-    height:430px;
+.hero-image img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
     object-fit:cover;
     object-position:center top;
-    border-radius:20px;
-    border:5px solid #38bdf8;
-    box-shadow:0 20px 40px rgba(0,0,0,.25);
+    border:6px solid #38bdf8;
+    background:#ffffff;
+    padding:6px;
+    box-shadow:0 15px 35px rgba(0,0,0,0.25);
+    transition:0.4s ease;
 }
 
 .hero-image img:hover{
-    transform:scale(1.03);
+    transform:scale(1.05);
+    box-shadow:0 20px 45px rgba(56,189,248,0.4);
 }
 
 
