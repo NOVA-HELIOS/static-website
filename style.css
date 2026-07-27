@@ -161,8 +161,7 @@ header{
     object-fit:cover;
     object-position:center top;
     border:6px solid #38bdf8;
-    background:#ffffff;
-    padding:6px;
+    background:#fff;
     box-shadow:0 15px 35px rgba(0,0,0,0.25);
     transition:0.4s ease;
 }
