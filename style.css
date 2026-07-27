@@ -1,0 +1,219 @@
+/* ===========================
+   GOOGLE FONT & RESET
+=========================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+/* ===========================
+   NAVBAR
+=========================== */
+
+header{
+    width:100%;
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:#0f172a;
+    box-shadow:0 2px 10px rgba(0,0,0,.2);
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:700;
+    color:#fff;
+}
+
+.logo span{
+    color:#38bdf8;
+}
+
+.nav-links{
+    display:flex;
+    list-style:none;
+}
+
+.nav-links li{
+    margin-left:30px;
+}
+
+.nav-links a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+    transition:.3s;
+}
+
+.nav-links a:hover,
+.nav-links .active{
+    color:#38bdf8;
+}
+
+/* ===========================
+   HERO SECTION
+=========================== */
+
+.hero{
+    width:90%;
+    margin:70px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-text{
+    flex:1;
+}
+
+.hero-text h3{
+    color:#2563eb;
+    font-size:24px;
+}
+
+.hero-text h1{
+    font-size:55px;
+    margin:10px 0;
+    color:#0f172a;
+}
+
+.hero-text h2{
+    color:#475569;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    color:#555;
+    margin-bottom:30px;
+}
+
+.buttons{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 28px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    border-radius:8px;
+    transition:.3s;
+    font-weight:500;
+}
+
+.btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+.btn-green{
+    background:#10b981;
+}
+
+.btn-green:hover{
+    background:#059669;
+}
+
+.hero-image{
+    flex:1;
+    display:flex;
+    justify-content:center;
+}
+
+.hero-image img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    object-fit:cover;
+    border:6px solid #38bdf8;
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+/* ===========================
+   SOCIAL ICONS
+=========================== */
+
+.social-icons{
+    margin-top:35px;
+}
+
+.social-icons a{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    width:50px;
+    height:50px;
+    margin-right:12px;
+    border-radius:50%;
+    background:white;
+    color:#2563eb;
+    text-decoration:none;
+    font-size:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.social-icons a:hover{
+    background:#2563eb;
+    color:white;
+    transform:translateY(-5px);
+}
+
+/* ===========================
+   PAGE TITLE
+=========================== */
+
+.page-title{
+    text-align:center;
+    padding:60px 20px 30px;
+}
+
+.page-title h1{
+    font-size:42px;
+    color:#0f172a;
+}
+
+.page-title p{
+    color:#64748b;
+    margin-top:10px;
+}
+
+/* ===========================
+   SECTION TITLE
+=========================== */
+
+section h2{
+    text-align:center;
+    margin-bottom:35px;
+    color:#0f172a;
+    font-size:34px;
+}
